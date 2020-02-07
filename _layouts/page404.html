@@ -1,9 +1,0 @@
----
-layout: page
----
-{{ content }}
-{% for node in site.page404.script %}
-<script {% for var in node.var %} {{ var.key }}='{{ var.value }}' {% endfor %}>
-</script>
-{% endfor %}
-
